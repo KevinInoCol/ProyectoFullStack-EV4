@@ -25,3 +25,28 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## CAPTURA DE PANTALLA
+![Le adjunto la captura de pantalla del login funcionando](captura/pantallafuncionando.png)
+
+ pruebas en postman:
+ register:
+{
+  "name": "piero",
+  "email": "piero@ejemplo.com",
+  "password": "44448888"
+}
+
+login:
+{
+  "email": "piero@ejemplo.com",
+  "password": "44448888"
+}
+
+iniciar back: mvn spring-boot:run
+iniciar front: ng serve
+
+ endpoint front:
+ http://localhost:4200/login-piero-batti-peña
+
+

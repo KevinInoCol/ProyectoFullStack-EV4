@@ -4,7 +4,7 @@ import { SignUpComponent } from './pages/signup/signup.component';
 
 export const routes: Routes = [
     {
-        path: "login",
+        path: "login-piero-batti-peña",
         component: LoginComponent
     },
     {
